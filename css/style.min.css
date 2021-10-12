@@ -31,6 +31,7 @@ figcaption,
 blockquote,
 dl,
 dd {
+  display: block;
   margin: 0;
 }
 
@@ -51,27 +52,32 @@ select {
 }
 
 .logo__text, .page__big-text, .instruction__action, .popup__name {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito',
+ sans-serif;
   font-weight: 900;
 }
 
 .page__call {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito',
+ sans-serif;
   font-weight: 700;
 }
 
 .instruction__action span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat',
+ sans-serif;
   font-weight: 400;
 }
 
 .btn-boxtop__new, .btn-boxtop__rules, .btn-box__new, .btn-box__rules {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat',
+ sans-serif;
   font-weight: 500;
 }
 
 body, .page__descr, .popup__date, .popup__rule p {
-  font-family: 'Betandyou-Main', sans-serif;
+  font-family: 'Betandyou-Main',
+ sans-serif;
 }
 
 /* Media queries */
@@ -1332,11 +1338,17 @@ footer {
   -webkit-box-shadow: 0px 9px 6px rgba(0, 0, 0, 0.6), -8.48408px 11.0293px 34.7847px -16.9682px #F6204A;
           box-shadow: 0px 9px 6px rgba(0, 0, 0, 0.6), -8.48408px 11.0293px 34.7847px -16.9682px #F6204A;
   overflow: hidden;
-  -webkit-transition: border-color 0.3s linear, -webkit-box-shadow 0.3s linear;
-  transition: border-color 0.3s linear, -webkit-box-shadow 0.3s linear;
-  -o-transition: border-color 0.3s linear, box-shadow 0.3s linear;
-  transition: border-color 0.3s linear, box-shadow 0.3s linear;
-  transition: border-color 0.3s linear, box-shadow 0.3s linear, -webkit-box-shadow 0.3s linear;
+  -webkit-transition: border-color 0.3s linear,
+ -webkit-box-shadow 0.3s linear;
+  transition: border-color 0.3s linear,
+ -webkit-box-shadow 0.3s linear;
+  -o-transition: border-color 0.3s linear,
+ box-shadow 0.3s linear;
+  transition: border-color 0.3s linear,
+ box-shadow 0.3s linear;
+  transition: border-color 0.3s linear,
+ box-shadow 0.3s linear,
+ -webkit-box-shadow 0.3s linear;
 }
 
 @media (max-width: 768px) {
@@ -1411,9 +1423,15 @@ footer {
   line-height: 2.5;
   border-radius: 10px;
   border: 2px solid #fff;
-  -webkit-transition: color 0.3s linear, border-color 0.3s linear, outline-color 0.3s linear;
-  -o-transition: color 0.3s linear, border-color 0.3s linear, outline-color 0.3s linear;
-  transition: color 0.3s linear, border-color 0.3s linear, outline-color 0.3s linear;
+  -webkit-transition: color 0.3s linear,
+ border-color 0.3s linear,
+ outline-color 0.3s linear;
+  -o-transition: color 0.3s linear,
+ border-color 0.3s linear,
+ outline-color 0.3s linear;
+  transition: color 0.3s linear,
+ border-color 0.3s linear,
+ outline-color 0.3s linear;
 }
 
 @media (max-width: 768px) {
@@ -1451,9 +1469,15 @@ footer {
   color: #fff;
   text-decoration: underline;
   text-transform: uppercase;
-  -webkit-transition: color 0.3s linear, border-color 0.3s linear, outline-color 0.3s linear;
-  -o-transition: color 0.3s linear, border-color 0.3s linear, outline-color 0.3s linear;
-  transition: color 0.3s linear, border-color 0.3s linear, outline-color 0.3s linear;
+  -webkit-transition: color 0.3s linear,
+ border-color 0.3s linear,
+ outline-color 0.3s linear;
+  -o-transition: color 0.3s linear,
+ border-color 0.3s linear,
+ outline-color 0.3s linear;
+  transition: color 0.3s linear,
+ border-color 0.3s linear,
+ outline-color 0.3s linear;
   cursor: pointer;
 }
 
@@ -1568,11 +1592,17 @@ footer {
   -webkit-box-shadow: -8.48408px 11.0293px 34.7847px -16.9682px #055AFF, 0px 9px 6px rgba(0, 0, 0, 0.6);
           box-shadow: -8.48408px 11.0293px 34.7847px -16.9682px #055AFF, 0px 9px 6px rgba(0, 0, 0, 0.6);
   overflow: hidden;
-  -webkit-transition: border-color 0.3s linear, -webkit-box-shadow 0.3s linear;
-  transition: border-color 0.3s linear, -webkit-box-shadow 0.3s linear;
-  -o-transition: border-color 0.3s linear, box-shadow 0.3s linear;
-  transition: border-color 0.3s linear, box-shadow 0.3s linear;
-  transition: border-color 0.3s linear, box-shadow 0.3s linear, -webkit-box-shadow 0.3s linear;
+  -webkit-transition: border-color 0.3s linear,
+ -webkit-box-shadow 0.3s linear;
+  transition: border-color 0.3s linear,
+ -webkit-box-shadow 0.3s linear;
+  -o-transition: border-color 0.3s linear,
+ box-shadow 0.3s linear;
+  transition: border-color 0.3s linear,
+ box-shadow 0.3s linear;
+  transition: border-color 0.3s linear,
+ box-shadow 0.3s linear,
+ -webkit-box-shadow 0.3s linear;
 }
 
 @media (max-width: 768px) {
@@ -1647,9 +1677,15 @@ footer {
   line-height: 2.5;
   border-radius: 10px;
   border: 2px solid #fff;
-  -webkit-transition: color 0.3s linear, border-color 0.3s linear, outline-color 0.3s linear;
-  -o-transition: color 0.3s linear, border-color 0.3s linear, outline-color 0.3s linear;
-  transition: color 0.3s linear, border-color 0.3s linear, outline-color 0.3s linear;
+  -webkit-transition: color 0.3s linear,
+ border-color 0.3s linear,
+ outline-color 0.3s linear;
+  -o-transition: color 0.3s linear,
+ border-color 0.3s linear,
+ outline-color 0.3s linear;
+  transition: color 0.3s linear,
+ border-color 0.3s linear,
+ outline-color 0.3s linear;
 }
 
 @media (max-width: 768px) {
@@ -1688,9 +1724,15 @@ footer {
   text-decoration: underline;
   text-transform: uppercase;
   cursor: pointer;
-  -webkit-transition: color 0.3s linear, border-color 0.3s linear, outline-color 0.3s linear;
-  -o-transition: color 0.3s linear, border-color 0.3s linear, outline-color 0.3s linear;
-  transition: color 0.3s linear, border-color 0.3s linear, outline-color 0.3s linear;
+  -webkit-transition: color 0.3s linear,
+ border-color 0.3s linear,
+ outline-color 0.3s linear;
+  -o-transition: color 0.3s linear,
+ border-color 0.3s linear,
+ outline-color 0.3s linear;
+  transition: color 0.3s linear,
+ border-color 0.3s linear,
+ outline-color 0.3s linear;
 }
 
 @media (max-width: 576px) {
