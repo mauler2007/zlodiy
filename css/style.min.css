@@ -31,7 +31,8 @@ figcaption,
 blockquote,
 dl,
 dd {
-  display: block;
+  /* display: block; */
+  background-color: #055AFF;
   margin: 0;
 }
 
